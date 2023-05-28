@@ -1,0 +1,10 @@
+Bundle-Name: contacts-api
+Bundle-SymbolicName: com.crosig.contacts.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.crosig.contacts.exception,\
+	com.crosig.contacts.model,\
+	com.crosig.contacts.service,\
+	com.crosig.contacts.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../contacts-service/service.xml
